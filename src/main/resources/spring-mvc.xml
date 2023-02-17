@@ -20,7 +20,7 @@
 
 
     <import resource="spring-qyl.xml"></import>
-    <import resource="spring-qyl2.xml"></import>
+    <import resource="spring-luoc.xml"></import>
 
     <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
         <property name="driverClassName" value="${jdbc.driver}"></property>
